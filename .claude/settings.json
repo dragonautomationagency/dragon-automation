@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.local)",
+      "Read(**/.env.development)",
+      "Read(**/.env.production)",
+      "Read(**/.env.staging)",
+      "Read(**/.env.test)",
+      "Read(**/.env.*.local)",
+      "Edit(**/.env)",
+      "Edit(**/.env.local)",
+      "Edit(**/.env.development)",
+      "Edit(**/.env.production)",
+      "Edit(**/.env.staging)",
+      "Edit(**/.env.test)",
+      "Edit(**/.env.*.local)",
+      "PowerShell(*.env*)",
+      "PowerShell(*$env:*)",
+      "PowerShell(*Env:*)",
+      "PowerShell(*GetEnvironmentVariable*)",
+      "PowerShell(*printenv*)",
+      "Bash(*.env*)",
+      "Bash(*printenv*)",
+      "Bash(env)",
+      "Bash(env *)"
+    ]
+  }
+}

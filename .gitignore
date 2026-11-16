@@ -1,0 +1,51 @@
+# الأسرار والمتغيرات
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets/
+*.secret
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# n8n (بيانات محلية وتصدير قد يحتوي بيانات)
+.n8n/
+n8n-data/
+*.sqlite
+*.sqlite3
+database.sqlite
+config
+encryptionKey
+
+# سجلات
+logs/
+*.log
+
+# ملفات النظام والمحررات
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# نسخ احتياطية وبيانات اختبار قد تحتوي بيانات مرضى
+backups/
+*.bak
+*.dump
+test-data/
